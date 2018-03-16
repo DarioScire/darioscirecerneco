@@ -6,13 +6,13 @@ body {
 	width: 100%;
 	margin: 0px;
 	background-image: url(img/bg.jpg);
-	background-repeat: repeat-y no-repeat;
+	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
 
-	.card {
+.card {
 		margin-left: 25%;
 		margin-top: 2%;
 		padding: 0px;
@@ -21,43 +21,39 @@ body {
 		transition: 0.3s;
 		width: 50%;
 		border-radius: 5px;
-	}
-	.card:hover {
+}
+.card:hover {
 		box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
-	}
-	img {
-		border: 20px solid white;
-		border-radius: 50%;
-		margin-top: 8%;
-		margin-bottom: -15% !important;
-		width: 30%;
-	}
-	.name {
+}
+.name {
 		text-align: center;
 		font-size: 5.7em;
 		color: gainsboro;
 		margin-top: 15%;
 		margin-bottom: auto;
 		text-transform: capitalize;
-	}
-	.subtitle {
+}
+
+.subtitle {
 		text-align: center;
 		font-size: 1.5em;
 		color: darkgray;
-	}
-	.social-icons {
-		text-align: center;
-		font-size: 3em;
-	}
-	a {
-		color: gainsboro;
-	}
-	a:hover {
-		color: #a52a2a;
-	}
+}
+.social-icons {
+	text-align: center;
+	font-size: 3em;
+}
+a {
+	color: gainsboro;
+}
+a:hover {
+	color: #a52a2a;
+}
 
 footer {
 	text-align: center;
 	color: black;
 	font-size: 1.2em
 }
+
+	
