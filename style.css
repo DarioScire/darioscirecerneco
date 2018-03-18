@@ -3,7 +3,7 @@
 			height: 100%;
 			top: 0;
 			left: 0;
-			background: url(img/bg.jpg) no-repeat center top;
+			background: url(img/bg.jpg) no-repeat left top;
 			position: fixed;
 			z-index: -1;
 			background-size: cover;
