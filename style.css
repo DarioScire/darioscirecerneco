@@ -67,12 +67,3 @@ footer {
 			margin-top: auto;
 			margin-bottom: auto;
 }
-
-@media only screen and (orientation: landscape) {
-	.name {
-			text-align: center;
-			font-size: 10vw;
-			color: yellow;
-			margin-top: auto;
-			margin-bottom: auto;
-}
