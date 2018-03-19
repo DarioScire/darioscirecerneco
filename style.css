@@ -27,6 +27,7 @@
 			color: black;
 			margin-top: auto;
 			margin-bottom: auto;
+			text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 .social-icons {
@@ -41,7 +42,7 @@ a {
 }
 
 a:hover {
-	        color: #a52a2a;
+	        color: white;
 }
 
 footer {
@@ -53,7 +54,16 @@ footer {
 			font-size: 4vw;
 			margin-top: auto;
 			margin-bottom: auto;
+			text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 
 /* COMMENTO */
 	
+@media only screen and (orientation: portrait) {
+	.name {
+			text-align: center;
+			font-size: 10vw;
+			color: white;
+			margin-top: auto;
+			margin-bottom: auto;
+}
