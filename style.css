@@ -27,10 +27,10 @@
 			color: black;
 			margin-top: auto;
 			margin-bottom: auto;
-			text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+			text-shadow: 3px 6px #272634;
 }
 
-.social-icons {
+.icons {
 			text-align: center;
 			font-size: 9vw;
 			margin-top: auto;
@@ -45,6 +45,10 @@ a:hover {
 	        color: white;
 }
 
+.icons .fa-linkedin-in{
+  text-shadow: 13px 6px #272634;
+}
+
 footer {
 			position:fixed;
 			bottom: 5%;
@@ -54,7 +58,7 @@ footer {
 			font-size: 4vw;
 			margin-top: auto;
 			margin-bottom: auto;
-			text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+			text-shadow: 3px 6px #272634;
 }
 
 /* COMMENTO */
