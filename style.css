@@ -19,6 +19,7 @@
 			color: black;
 			margin-top: auto;
 			margin-bottom: auto;
+			text-shadow: 1px 1px #272634;
 }
 
 .subtitle {
@@ -27,7 +28,7 @@
 			color: black;
 			margin-top: auto;
 			margin-bottom: auto;
-			text-shadow: 3px 6px #272634;
+			text-shadow: 1px 1px #272634;
 }
 
 .icons {
@@ -45,10 +46,6 @@ a:hover {
 	        color: white;
 }
 
-.icons .fa-linkedin-in{
-  text-shadow: 13px 6px #272634;
-}
-
 footer {
 			position:fixed;
 			bottom: 5%;
@@ -58,7 +55,7 @@ footer {
 			font-size: 4vw;
 			margin-top: auto;
 			margin-bottom: auto;
-			text-shadow: 3px 6px #272634;
+			text-shadow: 1px 1px #272634;
 }
 
 /* COMMENTO */
