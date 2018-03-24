@@ -16,20 +16,19 @@
 .name {
 			text-align: center;
 			font-size: 10vw;
-			color: black;
+			color: #EEEDEA;
 			margin-top: auto;
 			margin-bottom: auto;
-			text-shadow: 1px 1px #272634;
 }
 
-.subtitle {
+/* .subtitle {
 			text-align: center;
 			font-size: 10vw;
 			color: black;
 			margin-top: auto;
 			margin-bottom: auto;
 			text-shadow: 1px 1px #272634;
-}
+} */
 
 .icons {
 			text-align: center;
@@ -47,24 +46,24 @@ a:hover {
 }
 
 footer {
-			position:fixed;
-			bottom: 5%;
 			width: 100%;
 			text-align: center;
 			color: white;
 			font-size: 4vw;
 			margin-top: auto;
 			margin-bottom: auto;
-			text-shadow: 1px 1px #272634;
+			position: fixed;
+   			left: 0;
+   			bottom: 0;
 }
-
-/* COMMENTO */
 	
-@media only screen and (orientation: portrait) {
+/* @media only screen and (orientation: portrait) {
 	.name {
 			text-align: center;
 			font-size: 10vw;
 			color: white;
 			margin-top: auto;
 			margin-bottom: auto;
-}
+} */
+
+/* COMMENTO */
