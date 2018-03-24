@@ -19,6 +19,10 @@
 			color: #EEEDEA;
 			margin-top: auto;
 			margin-bottom: auto;
+			position: fixed;
+			width: 100%;
+			left: 0;
+   			top: 0;
 }
 
 /* .subtitle {
@@ -35,6 +39,12 @@
 			font-size: 9vw;
 			margin-top: auto;
 			margin-bottom: auto;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top:50%;
+   			
 }
 
 a {
