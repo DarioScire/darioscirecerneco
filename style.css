@@ -9,11 +9,8 @@
 			background-size: cover;
 }
 
-* {
-	        font-family: 'Caveat', cursive;
-}
-
 .name {
+			font-family: 'Caveat', cursive;
 			text-align: center;
 			font-size: 10vw;
 			color: #EEEDEA;
@@ -55,6 +52,7 @@ a:hover {
 	        color: white;
 }
 
+
 footer {
 			width: 100%;
 			text-align: center;
@@ -67,18 +65,7 @@ footer {
    			bottom: 0;
 }
 	
-@media only screen and (orientation: portrait) {
-	.icons {
-			text-align: center;
-			font-size: 25vw;
-			margin-top: auto;
-			margin-bottom: auto;
-			position: fixed;
-			width: 100%;
-			height: 100%;
-			left: 0;
-			top:20%;
-   			
-}
+/* @media only screen and (orientation: portrait) {
+} */
 
 /* COMMENTO */
