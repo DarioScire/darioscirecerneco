@@ -67,13 +67,18 @@ footer {
    			bottom: 0;
 }
 	
-/* @media only screen and (orientation: portrait) {
-	.name {
+@media only screen and (orientation: portrait) {
+	.icons {
 			text-align: center;
-			font-size: 10vw;
-			color: white;
+			font-size: 25vw;
 			margin-top: auto;
 			margin-bottom: auto;
-} */
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top:20%;
+   			
+}
 
 /* COMMENTO */
