@@ -9,7 +9,7 @@
 			background-size: cover;
 }
 
-.subtitle {
+.saluto {
 			text-align: center;
 			font-size: 5vw;
 			color: black;
@@ -22,7 +22,7 @@
    			top: 0;
 }
 
-.name {
+.nome {
 			font-family: 'Caveat', cursive;
 			text-align: center;
 			font-size: 10vw;
@@ -35,7 +35,32 @@
 			left: 0;
 }
 
-.icons {
+.sottotitolo {
+			text-align: center;
+			font-size: 10vw;
+			color: green;
+			margin-top: auto;
+			margin-bottom: auto;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 21%;
+}
+
+.prova {
+			text-align: center;
+			font-size: 4vw;
+			margin-top: auto;
+			margin-bottom: auto;
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 41%;
+}
+
+.icone {
 			text-align: center;
 			font-size: 9vw;
 			margin-top: auto;
@@ -44,9 +69,10 @@
 			width: 100%;
 			height: 100%;
 			left: 0;
-			top:50%;
+			top:48%;
 }
 
+/*
 a {
 	        color: green;
 }
@@ -54,6 +80,7 @@ a {
 a:hover {
 	        color: white;
 }
+*/
 
 
 footer {
