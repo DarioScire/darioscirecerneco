@@ -1,70 +1,16 @@
-.sfondo {
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	background: url(img/bg.jpg) no-repeat right top;
-	position: fixed;
-	z-index: -1;
-	background-size: cover;
-}
-
-.contenitore {
-	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	left: 0;
-   	top: 0;
-}        
-
-.saluto {			
-	font-size: 5vw;
-	color: black;			
-}
-
-.nome {
-	font-family: 'Caveat', cursive;			
-	font-size: 10vw;
-	color: #EEEDEA;			
-}
-
-.sottotitolo {
-	font-size: 10vw;
-	color: green;
-}
-
-.descrizione {
-	font-size: 4vw;
-}
-
-.icone {
-	font-size: 9vw;
-}
-
-a {
-	color: green;
-}
-
+/*
 a:hover {
 	color: white;
 }
-
-.footer {
-	width: 100%;
-	text-align: center;
-	color: white;
-	font-size: 4vw;
-	margin-top: auto;
-	margin-bottom: auto;
-	position: fixed;
-   	left: 0;
-   	bottom: 0;
-}
+*/
 
 /* @media only screen and (orientation: portrait) {
 } */
 
-/* COMMENTO */
+/* COMMENTO 
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+*/
