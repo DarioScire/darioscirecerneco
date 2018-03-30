@@ -1,95 +1,67 @@
-#sfondo {
-			width: 100%;
-			height: 100%;
-			top: 0;
-			left: 0;
-			background: url(img/bg.jpg) no-repeat right top;
-			position: fixed;
-			z-index: -1;
-			background-size: cover;
+.sfondo {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: url(img/bg.jpg) no-repeat right top;
+	position: fixed;
+	z-index: -1;
+	background-size: cover;
 }
 
-.saluto {
-			text-align: center;
-			font-size: 5vw;
-			color: black;
-			margin-top: auto;
-			margin-bottom: auto;
-			position: fixed;
-			width: 100%;
-			height: 100%;
-			left: 0;
-   			top: 0;
+.contenitore {
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+   	top: 0;
+}        
+
+.saluto {			
+	font-size: 5vw;
+	color: black;			
 }
 
 .nome {
-			font-family: 'Caveat', cursive;
-			text-align: center;
-			font-size: 10vw;
-			color: #EEEDEA;
-			margin-top: auto;
-			margin-bottom: auto;
-			position: fixed;
-			width: 100%;
-			height: 100%;
-			left: 0;
+	font-family: 'Caveat', cursive;			
+	font-size: 10vw;
+	color: #EEEDEA;			
 }
 
 .sottotitolo {
-			text-align: center;
-			font-size: 10vw;
-			color: green;
-			margin-top: auto;
-			margin-bottom: auto;
-			position: fixed;
-			width: 100%;
-			height: 100%;
-			left: 0;
-			top: 21%;
+	font-size: 10vw;
+	color: green;
 }
 
-.prova {
-			text-align: center;
-			font-size: 4vw;
-			margin-top: auto;
-			margin-bottom: auto;
-			position: fixed;
-			width: 100%;
-			height: 100%;
-			left: 0;
-			top: 41%;
+.descrizione {
+	font-size: 4vw;
 }
 
 .icone {
-			text-align: center;
-			font-size: 9vw;
-			margin-top: auto;
-			margin-bottom: auto;
-			position: fixed;
-			width: 100%;
-			height: 100%;
-			left: 0;
-			top:48%;
+	font-size: 9vw;
 }
 
 a {
-	        color: green;
+	color: green;
 }
 
 a:hover {
-	        color: white;
+	color: white;
 }
 
-footer {
-			width: 100%;
-			text-align: center;
-			color: white;
-			font-size: 4vw;
-			margin-top: auto;
-			margin-bottom: auto;
-			position: fixed;
-   			left: 0;
-   			bottom: 0;
+.footer {
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 4vw;
+	margin-top: auto;
+	margin-bottom: auto;
+	position: fixed;
+   	left: 0;
+   	bottom: 0;
 }
 
 /* @media only screen and (orientation: portrait) {
