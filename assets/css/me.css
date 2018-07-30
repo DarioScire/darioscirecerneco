@@ -83,12 +83,10 @@ body.page-template-page-fullsingle-me {
   .bio a {
     color: #CCCCCC;
     transition: 1s; }
-<<<<<<< HEAD
-=======
+
     .bio a:hover {
       color: #FFFFFF;
       transition: 0.1s; }
->>>>>>> 694ac65b9ec3876a9d19e51d32ffaae5840db427
 
 .network {
 /*  -webkit-box-flex: 1;
