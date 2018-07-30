@@ -117,17 +117,21 @@ body.page-template-page-fullsingle-me {
         .network ul li a .svg-icon path,
         .network ul li a .svg-icon polygon,
         .network ul li a .svg-icon rect {
-          fill: blue; }
+          fill: #2c4f39; }
       .network ul li a:hover .svg-icon path,
       .network ul li a:hover .svg-icon polygon,
       .network ul li a:hover .svg-icon rect {
-        fill: red;  }
+        fill: #457958;  }
 
 .credit {
   margin-bottom: 0;
+  max-width: 100%;
+  letter-spacing: -2px;
         }
 .credit p {
   font-size: 30px;
   line-height: 15px;
   font-weight: 400;
+  max-width: 100%;
+  letter-spacing: -2px;
           }
