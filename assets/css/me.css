@@ -75,18 +75,12 @@ body.page-template-page-fullsingle-me {
         height: 90vh; } }
 
 .bio {
- letter-spacing: -1px;
-  max-width: 66%; }
+ letter-spacing: -2px;
+  max-width: 100%; }
   @media (max-width: 800px) {
     .bio {
       max-width: none; } }
-  .bio a {
-    color: #CCCCCC;
-    transition: 1s; }
-
-    .bio a:hover {
-      color: #FFFFFF;
-      transition: 0.1s; }
+ 
 
 .network {
 /*  -webkit-box-flex: 1;
