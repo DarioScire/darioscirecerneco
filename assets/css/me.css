@@ -84,7 +84,7 @@ body.page-template-page-fullsingle-me {
         cursor: pointer;
                         }
         .network ul li a .svg-icon {
-          padding: 4px;
+          padding: 0px;
           width: 32px;
           height: 32px;
           margin: 0;
