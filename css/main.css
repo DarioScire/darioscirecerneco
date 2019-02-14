@@ -1,0 +1,184 @@
+/**************************  GENERAL  **************************/
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+	text-align: center;
+	margin: 0;
+}
+
+/**************************  HEADER  **************************/
+
+#logo {
+	text-align: center;
+}
+
+.main-header {
+	background-color: #004d91; 
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	top: 0;
+}
+
+h1 {
+	color: #ffffff;
+	font-family: 'Candal', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 2.2em;
+}
+
+
+/**************************  NAV  **************************/
+
+nav {	
+	text-align: center;
+	margin: 0;
+	background-color: #f0f0f0;
+}
+
+nav a {
+	color: #004d91;
+	padding: 0 10px;
+	margin: 0;
+}
+
+nav a:hover {
+	color: #27583F;
+}
+
+nav a.selected {
+	color: #27583F;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+/**************************  BANNER  **************************/
+
+.banner {
+	text-align: center;
+	margin-top: 100px;
+	min-height: calc(100vh - 100px);
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: scroll;
+}
+
+
+/**************************  ABOUT  **************************/
+
+.sezione_about {
+	height: 100vh;
+	max-width: 100vw;
+	background-color: #0066cc;
+	}
+
+.contenitore_about {
+	padding-top: 120px;
+}
+
+.foto-profilo {
+	display: block;
+	height: 40%;
+	width: 40%;
+	margin: 15% auto 5% auto;
+	border-radius: 100%;
+}
+
+.contenitore_about p {
+	text-align: justify;
+	margin: 5% 5%;
+}
+
+/**************************  CONTACT  **************************/
+
+.sezione_contact {
+	min-height: 100vh;
+	max-width: 100vw;
+	background-color: white;
+	margin-bottom: -90px;
+}
+
+.contenitore_contact {
+	padding-top: 120px;
+	margin: 0 5%;
+}
+
+.lista_contatti {
+	list-style: none;
+	padding-left: 0;
+	margin: 15% auto 5% auto;
+}
+
+.lista_contatti a {
+	color: #000000;
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.lista_contatti li.phone a {
+	background-image: url(../img/icona_phone.png);
+}
+
+.lista_contatti li.whatsapp a {
+	background-image: url(../img/icona_whatsapp.png);
+}
+
+.lista_contatti li.mail a {
+	background-image: url(../img/icona_mail.png);
+}
+
+.lista_contatti li.twitter a {
+	background-image: url(../img/icona_twitter.png);
+}
+
+.lista_contatti li.linkedin a {
+	background-image: url(../img/icona_linkedin.png);
+}
+
+/**************************  FOOTER  **************************/
+
+.sezione_footer {
+	text-align: center;
+	min-height: 90px;
+	background-color: #004d91;
+}
+
+.contenitore_footer {
+	padding-top: 25px;
+
+}
+
+.sezione_footer p {
+	font-size: 0.85em;
+	margin: 0;
+}
+
+.icona-social {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
