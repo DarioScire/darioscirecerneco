@@ -150,13 +150,12 @@ nav li {
 
 }
 
+.contenitore_footer a {
+	color: #000000;
+	font-size: 30px;
+}
+
 .sezione_footer p {
 	font-size: 0.85em;
 	margin: 0;
-}
-
-.icona-social {
-	width: 30px;
-	height: 30px;
-	margin: 0 5px;
 }
