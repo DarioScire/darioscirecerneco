@@ -128,35 +128,11 @@ nav li {
 	margin: 15% auto 5% auto;
 }
 
-.lista_contatti a {
+.fa-ul li a {
 	color: #000000;
-	display: block;
-	min-height: 20px;
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	padding: 0 0 0 30px;
-	margin: 0 0 10px;
 }
 
-.lista_contatti li.phone a {
-	background-image: url(../img/icona_phone.png);
-}
 
-.lista_contatti li.whatsapp a {
-	background-image: url(../img/icona_whatsapp.png);
-}
-
-.lista_contatti li.mail a {
-	background-image: url(../img/icona_mail.png);
-}
-
-.lista_contatti li.twitter a {
-	background-image: url(../img/icona_twitter.png);
-}
-
-.lista_contatti li.linkedin a {
-	background-image: url(../img/icona_linkedin.png);
-}
 
 /**************************  FOOTER  **************************/
 
