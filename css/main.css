@@ -96,12 +96,12 @@ nav li {
 	}
 
 .contenitore_about {
-	
+	margin: 0 5%;
 }
 
 .foto-profilo {
 	display: block;	
-	max-height: 30vw;
+	max-height: 25vw;
 	margin: 0 auto 0 auto;
 	border-radius: 100%;
 }
@@ -125,7 +125,7 @@ nav li {
 }
 
 .contenitore_contact {
-	margin: 0 5%;
+	margin: 0 5% ;
 }
 
 .fa-ul li a {
