@@ -88,6 +88,10 @@ nav li {
 .sezione_about {
 	height: calc(100vh - 190px);
 	max-width: 100vw;
+	padding-top: 100px;
+	margin-top: -100px;
+	position: relative;
+	z-index: -1;
 	background-color: #0066cc;
 	}
 
