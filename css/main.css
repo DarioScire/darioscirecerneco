@@ -74,7 +74,7 @@ nav li {
 .banner {
 	text-align: center;
 	margin-top: 100px;
-	min-height: calc(100vh - 100px);
+	min-height: calc(100vh - 190px);
 	background-image: url(../img/bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -86,52 +86,47 @@ nav li {
 /**************************  ABOUT  **************************/
 
 .sezione_about {
-	height: 100vh;
+	height: calc(100vh - 190px);
 	max-width: 100vw;
 	background-color: #0066cc;
 	}
 
 .contenitore_about {
-	padding-top: 120px;
+	
 }
 
 .foto-profilo {
-	display: block;
-	height: 40%;
-	width: 40%;
-	margin: 15% auto 5% auto;
+	display: block;	
+	max-height: 30vw;
+	margin: 0 auto 0 auto;
 	border-radius: 100%;
 }
 
 .contenitore_about p {
 	text-align: justify;
-	margin: 5% 5%;
+	margin: 0 5%;
+}
+
+#about {
+	
 }
 
 /**************************  CONTACT  **************************/
 
 .sezione_contact {
-	min-height: 100vh;
+	height: calc(100vh - 100px);
 	max-width: 100vw;
 	background-color: white;
 	margin-bottom: -90px;
 }
 
 .contenitore_contact {
-	padding-top: 120px;
 	margin: 0 5%;
-}
-
-.lista_contatti {
-	list-style: none;
-	padding-left: 0;
-	margin: 15% auto 5% auto;
 }
 
 .fa-ul li a {
 	color: #000000;
 }
-
 
 
 /**************************  FOOTER  **************************/
@@ -146,16 +141,18 @@ nav li {
 }
 
 .contenitore_footer {
-	padding-top: 25px;
+	padding-top: 15px;
 
 }
 
 .contenitore_footer a {
-	color: #000000;
+	color: #f0f0f0;
 	font-size: 30px;
 }
 
 .sezione_footer p {
 	font-size: 0.85em;
+	font-weight: bold;
 	margin: 0;
+	padding-top: 11px;
 }
