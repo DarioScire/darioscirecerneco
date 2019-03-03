@@ -116,8 +116,8 @@ nav li {
 .sezione_contact {
 	height: calc(100vh - 150px);
 	width: 100%;
-	background-color: white;
-	margin-bottom: 50px;
+	margin-bottom: 50px;	
+	background-color: white;	
 }
 
 .contenitore_contact {
