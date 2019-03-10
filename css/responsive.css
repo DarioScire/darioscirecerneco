@@ -1,56 +1,5 @@
-@media screen and (min-width: 480px) {
-	
-	/**************************  CONTACT  **************************/
-
-	#info {
-		width: 50%;
-		float: left;
-	}
-
-	#contatti {
-		width: 40%;
-		float: right;
-	}
-
-}
-
-@media screen and (min-width: 660px) {
-
-/**************************  ABOUT  **************************/
-
+@media (orientation: landscape) {
 	.foto-profilo {
-		float: left;
-		margin: 0 5% 50px 0;
+		width: 20vw;
 	}
-
-/**************************  PORTFOLIO  **************************/
-
-	#gallery li {
-		width: 28.33333333%
-	}
-
-/**************************  HEADER  **************************/
-
-	#logo {
-		float: left;
-		width: 45%;
-		margin-left: 5%;
-		text-align: left;
-	}
-
-	nav {
-		float: right;
-		width: 45%;
-		margin-right: 5%;
-		background: none;
-		text-align: right;
-		padding-top: 25px;
-	}
-
-	nav a {
-		padding-top: 0 5px;
-		font-weight: bold;
-		font-size: 1.2em;
-	}
-
 }
