@@ -15,10 +15,6 @@ h3 {
 
 /**************************  HEADER  **************************/
 
-#logo {
-	text-align: center;
-}
-
 .main-header {
 	background-color: #004d91; 
 	margin: 0;
@@ -29,7 +25,11 @@ h3 {
 	top: 0;
 }
 
-h1 {
+#logo {
+	text-align: center;
+}
+
+#logo h1 {
 	color: #ffffff;
 	margin: 0;
 	padding: 0;
